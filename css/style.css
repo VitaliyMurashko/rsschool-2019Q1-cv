@@ -1,0 +1,72 @@
+body {
+    font-family: 'Concert One', cursive;
+    letter-spacing: 0.6px;
+}
+
+.container {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1024px;
+}
+
+h1 {
+    visibility: hidden;
+    position: absolute;
+}
+
+h3 {
+    line-height: 5;
+}
+
+#cv {
+    color: cadetblue;
+}
+
+#cv p,
+li,
+a {
+    color: dimgrey;
+}
+
+.profile-container {
+    max-height: 230px;
+    border-bottom: solid cadetblue;
+    background-color: rgba(29, 26, 28, 0.73);
+}
+
+.contacts-container {
+    color: burlywood;
+    display: inline-block;
+    margin: 0 10px 0 580px;
+    line-height: 2.5;
+}
+
+.contacts-container a{
+    color: burlywood;
+}
+
+.contacts-container strong {
+    color: cadetblue;
+}
+
+.square {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 5px 0 18px 40px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.pic {
+    background-image: url('/img/no-translate-detected_318-42173.jpg');
+    width: 220px;
+    height: 220px;
+    margin: -40px -35px;
+}
+
+footer{
+    min-height: 60px;
+    background-color: rgba(29, 26, 28, 0.73);
+}
